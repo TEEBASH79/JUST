@@ -1,0 +1,238 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+
+}
+.header {
+
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+    
+} 
+
+.header ul a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+.navbar ul a:hover{
+    background: white;
+    color: black;
+    
+    
+}
+.page1 {
+
+    background-image: url(/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;    
+    
+}
+.botton {
+    margin-top: 30px;
+    margin-right: 80px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+
+.me {
+    
+    text-align: right;
+    color: white;
+    margin-top: 300px;
+    margin-right: 50px;    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+.page2 {
+
+    display: flex;
+}
+
+.portfolio {
+
+    background-color: rgb(54, 47, 47);
+    color: white;
+    height: 900px;
+        
+}
+
+.port1 {
+
+    background-image: url(/web.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+}
+
+.port2 {
+    margin: 10px;
+    
+}
+
+.port3 {
+    background-image: url(/uiux.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    
+}
+
+.subport {
+    background-image: url(/mobile.jpg);    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 10px;
+
+}
+
+.subport1 {
+    background-image: url(/digi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.wrapper {
+
+    display: flex;
+
+}
+.portfolio h1 {
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.portH {
+
+    margin-top: 30px;
+}
+
+.design {
+
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;    
+}
+.design h1 {
+    text-align: center;
+}
+
+.design1 {
+
+    height: 350px;
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.design1 h2 {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.design2 {
+
+    height: 350px;
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+.design2 h2 {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.design3 {
+
+    height: 350px;
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+.design3 h2 {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.design4 {
+
+    height: 350px;
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+.design4 h2 {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact {
+
+    width: 1fr;
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.contact h2 {
+
+    padding-top: 30px;
+}
+
+.about2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.about h1 {
+    margin-bottom: 20px;
+}
+.about h3 {
+    margin-bottom: 20px;
+}
